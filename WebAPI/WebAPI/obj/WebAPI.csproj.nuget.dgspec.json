@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\coreAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\coreAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\coreAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\coreAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectPath": "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\WebAPI\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Spikes\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\coreAPI\\WebAPI\\WebAPI\\obj\\",
+        "outputPath": "D:\\Documents and stuff\\My code\\sql-dotnet-angularjs-project\\WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Spikes\\AppData\\Roaming\\NuGet\\NuGet.Config",
