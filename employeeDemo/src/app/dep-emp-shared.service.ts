@@ -6,8 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class DepEmpSharedService {
-  readonly APIUrl = 'http://localhost:53535/api';
-  readonly PhotoUrl = 'http://localhost:53535/Photos';
+  readonly APIUrl = 'http://localhost:50306/api';
+  readonly PhotoUrl = 'http://localhost:50306/Photos/';
 
   constructor(private http: HttpClient) {}
 
@@ -27,7 +27,7 @@ export class DepEmpSharedService {
   }
   //Delete department on dbo.Department
   deleteDepartment(val: any) {
-    return this.http.delete(this.APIUrl + '/Department' + val);
+    return this.http.delete(this.APIUrl + '/Department/' + val);
   }
 
   //************Employee Table****************** */
@@ -42,11 +42,22 @@ export class DepEmpSharedService {
   }
   //Change Employee on dbo.Employee
   updateEmployee(val: any) {
-    return this.http.put(this.APIUrl + '/Employee', val);
+    return this.http.put(this.APIUrl + '/Employee/', val);
   }
   //Delete Employee on dbo.Employee
   deleteEmployee(val: any) {
-    return this.http.delete(this.APIUrl + '/Employee' + val);
+    return this.http.delete(this.APIUrl + '/Employee/' + val);
+  }
+
+  //*********Photo File********** */
+
+  //Upload Photo
+  UploadPhoto(val: any) {
+    return this.http.post(this.APIUrl + '/Employee/SaveFile', val);
+  }
+
+  UpdatePhoto(val: any) {
+    return this.http.put(this.APIUrl + '/Employee/SaveFile', val);
   }
 
   //Get all departments from EmployeeDB
@@ -55,12 +66,5 @@ export class DepEmpSharedService {
     return this.http.get<any[]>(
       this.APIUrl + '/Employee/GetAllDepartmentNames'
     );
-  }
-
-  //*********Photo File********** */
-
-  //Upload Photo
-  UploadPhoto(val: any) {
-    return this.http.post(this.APIUrl + '/Employee/SaveFile', val);
   }
 }
