@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Spikes\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Spikes\\.nuget\\packages"
+    ]
+  }
+}
