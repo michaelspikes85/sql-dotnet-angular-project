@@ -31,12 +31,12 @@ WebAPI Solution started in Visual Studio
 
 ## Technologies
 
-SQL
-SQL Server Management Studio
-ASP.NET
-Visual Studio 2019
-Angular
-Visual Studio Code
+- SQL
+- SQL Server Management Studio
+- ASP.NET
+- Visual Studio 2019
+- Angular
+- Visual Studio Code
 
 ## Questions
 
