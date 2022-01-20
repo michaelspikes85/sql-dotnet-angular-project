@@ -43,7 +43,7 @@ Please email me with any questions.
 
 ### Picture
 
-<img src="00&u=8c11108cdf37f9f12f9c74fc61acb2ef1135f573&v=4">
+<img src="https://avatars.githubusercontent.com/u/60369601?s=400&u=8c11108cdf37f9f12f9c74fc61acb2ef1135f573&v=4">
 
 ### Email
 
